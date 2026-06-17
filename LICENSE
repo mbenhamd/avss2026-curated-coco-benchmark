@@ -1,0 +1,21 @@
+# License
+
+This repository uses separate licenses for code and dataset artifacts.
+
+## Code
+
+Files under `scripts/` are released under the MIT License. See
+`LICENSES/MIT.txt`.
+
+## Benchmark Annotations, Splits, Metadata, And Documentation
+
+Files under `annotations/`, `splits/`, `metadata/`, `configs/`, `docs/`, and the
+top-level documentation files are released under Creative Commons Attribution
+4.0 International (CC BY 4.0). See `LICENSES/CC-BY-4.0.md`.
+
+## COCO Images
+
+COCO images are not included in this repository. Users must obtain images from
+the official COCO distribution and comply with the applicable COCO and
+source-image terms.
+

@@ -1,0 +1,195 @@
+{
+  "benchmark": {
+    "name": "AVSS 2026 Curated COCO Benchmark",
+    "version": "public-draft",
+    "seed": 0,
+    "val_fraction": 0.1,
+    "min_match_iou": 0.9
+  },
+  "splits": {
+    "train": {
+      "images": 4753,
+      "images_with_matches": 4676,
+      "images_without_matches": 77,
+      "objects": 28659
+    },
+    "val": {
+      "images": 528,
+      "images_with_matches": 512,
+      "images_without_matches": 16,
+      "objects": 3125
+    },
+    "total": {
+      "images": 5281,
+      "images_with_matches": 5188,
+      "images_without_matches": 93,
+      "objects": 31784
+    }
+  },
+  "curation": {
+    "missing_coco_images": 0,
+    "missing_axis_labels": 0,
+    "mean_match_iou": 0.9897951385900341,
+    "min_match_iou": 0.9000173009056966,
+    "max_match_iou": 0.9999999999989999
+  },
+  "axis": {
+    "D": {
+      "count": 30986,
+      "share": 0.9749
+    },
+    "O": {
+      "count": 798,
+      "share": 0.0251
+    }
+  },
+  "direction": {
+    "FR": {
+      "count": 14254,
+      "share": 0.4485
+    },
+    "LR": {
+      "count": 14227,
+      "share": 0.4476
+    },
+    "UD": {
+      "count": 3303,
+      "share": 0.1039
+    }
+  },
+  "axis_direction": {
+    "D-LR": {
+      "count": 14112,
+      "share": 0.4440
+    },
+    "D-FR": {
+      "count": 13621,
+      "share": 0.4285
+    },
+    "D-UD": {
+      "count": 3253,
+      "share": 0.1023
+    },
+    "O-FR": {
+      "count": 633,
+      "share": 0.0199
+    },
+    "O-LR": {
+      "count": 115,
+      "share": 0.0036
+    },
+    "O-UD": {
+      "count": 50,
+      "share": 0.0016
+    }
+  },
+  "polygon": {
+    "instances": 31784,
+    "non_empty_label_files": 5188,
+    "mean_vertices": 25.19,
+    "median_vertices": 19,
+    "min_vertices": 4,
+    "max_vertices": 505,
+    "by_split": {
+      "train": {
+        "instances": 28659,
+        "non_empty_label_files": 4676,
+        "mean_vertices": 25.17,
+        "median_vertices": 19,
+        "min_vertices": 4,
+        "max_vertices": 505
+      },
+      "val": {
+        "instances": 3125,
+        "non_empty_label_files": 512,
+        "mean_vertices": 25.39,
+        "median_vertices": 19,
+        "min_vertices": 4,
+        "max_vertices": 374
+      }
+    }
+  },
+  "object_class_counts": {
+    "person": 9949,
+    "car": 1617,
+    "chair": 1244,
+    "book": 922,
+    "bottle": 877,
+    "cup": 696,
+    "bowl": 627,
+    "handbag": 532,
+    "traffic light": 486,
+    "dining table": 475,
+    "boat": 439,
+    "bird": 437,
+    "umbrella": 397,
+    "bench": 368,
+    "kite": 363,
+    "banana": 362,
+    "cow": 356,
+    "truck": 343,
+    "wine glass": 343,
+    "donut": 317,
+    "knife": 305,
+    "motorcycle": 298,
+    "sheep": 288,
+    "suitcase": 276,
+    "potted plant": 276,
+    "sports ball": 264,
+    "remote": 258,
+    "vase": 254,
+    "tie": 248,
+    "backpack": 248,
+    "orange": 247,
+    "carrot": 247,
+    "bicycle": 241,
+    "spoon": 238,
+    "surfboard": 237,
+    "skateboard": 234,
+    "fork": 228,
+    "skis": 228,
+    "cake": 225,
+    "cell phone": 223,
+    "sink": 222,
+    "couch": 221,
+    "broccoli": 218,
+    "horse": 217,
+    "clock": 211,
+    "elephant": 211,
+    "tv": 205,
+    "bus": 196,
+    "laptop": 194,
+    "giraffe": 192,
+    "sandwich": 191,
+    "tennis racket": 189,
+    "zebra": 187,
+    "cat": 185,
+    "dog": 184,
+    "train": 176,
+    "toilet": 174,
+    "teddy bear": 172,
+    "airplane": 165,
+    "apple": 163,
+    "pizza": 163,
+    "baseball glove": 154,
+    "bed": 146,
+    "refrigerator": 122,
+    "baseball bat": 121,
+    "oven": 112,
+    "hot dog": 102,
+    "stop sign": 94,
+    "frisbee": 90,
+    "mouse": 88,
+    "snowboard": 84,
+    "keyboard": 75,
+    "toothbrush": 68,
+    "microwave": 65,
+    "fire hydrant": 65,
+    "bear": 54,
+    "scissors": 47,
+    "parking meter": 35,
+    "toaster": 9,
+    "hair drier": 4
+  }
+}
+

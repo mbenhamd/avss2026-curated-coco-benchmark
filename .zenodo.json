@@ -1,0 +1,33 @@
+{
+  "title": "AVSS 2026 Curated COCO Benchmark",
+  "upload_type": "dataset",
+  "description": "Public benchmark definition for the AVSS 2026 curated COCO evaluation. The archive contains annotations, split definitions, metadata, protocol configuration, result tables, and reconstruction scripts. COCO images are not included.",
+  "creators": [
+    {
+      "name": "BEN HAMDOUNE, Mohamed"
+    },
+    {
+      "name": "GADI, Najib"
+    },
+    {
+      "name": "GAZUT, Stephane"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "keywords": [
+    "computer vision",
+    "COCO",
+    "object detection",
+    "instance segmentation",
+    "orientation",
+    "AVSS 2026"
+  ],
+  "access_right": "open",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/mbenhamd/avss2026-curated-coco-benchmark",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}

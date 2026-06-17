@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+title: "AVSS 2026 Curated COCO Benchmark"
+message: "If you use this benchmark, cite the associated AVSS 2026 paper and this archive."
+type: dataset
+authors:
+  - family-names: "BEN HAMDOUNE"
+    given-names: "Mohamed"
+  - family-names: "GADI"
+    given-names: "Najib"
+  - family-names: "GAZUT"
+    given-names: "Stephane"
+repository-code: "https://github.com/mbenhamd/avss2026-curated-coco-benchmark"
+license: "CC-BY-4.0"
+keywords:
+  - computer vision
+  - COCO
+  - object detection
+  - instance segmentation
+  - orientation
+  - AVSS 2026
